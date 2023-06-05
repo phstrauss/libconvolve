@@ -1,0 +1,16 @@
+
+requirements:
+
+fftw3
+
+libdsp
+
+libsamplerate
+
+libsndfile
+
+you can compile without libDSP support if your platform doesn't support it. 
+Have alook into the Makefile. It is strongly recommended to use libDSP 
+though for performance reasons.
+
+Florian Schmidt
